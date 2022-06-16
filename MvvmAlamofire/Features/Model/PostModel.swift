@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+// MARK: - PostModel
+struct PostModel: Codable {
+    let userID, id: Int?
+    let title, body: String?
+}
+
